@@ -10,7 +10,7 @@ var released = false;
 
 function setup() {
   var canvas = createCanvas(600, 600);
-  for (var i = 0; i < 3 ; i++) {
+  for (var i = 0; i < 10; i++) {
     circles[i] = new Circle(floor(random(width)), floor(random(height)));
   }
   button = createButton('process');
